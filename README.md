@@ -1,12 +1,68 @@
-# React + Vite
+# Estate Project – MERN Stack Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+Estate Project is a full-stack MERN web application designed for property listing and management.
+Users can register, log in, and view property listings, while authenticated users can add, update, and manage properties.
+The project demonstrates real-world full-stack development using modern web technologies.
+## 🚀 Features
+- User Signup & Login (JWT Authentication)
+- Property Listing (Add / View / Update / Delete)
+- Role-based access control
+- Responsive user interface
+- RESTful API integration
+## 🛠️ Tech Stack
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+### Database
+- MongoDB
+### Tools & Libraries
+- JWT Authentication
+- Git & GitHub
+- VS Code
 
-Currently, two official plugins are available:
+## ⚙️ How to Run the Project Locally
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/harshitsharmaa0905/Estate-project-mern.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2️⃣ Install dependencies
+cd Estate-project-mern
+# Frontend
+cd client
+npm install
+# Backend
+cd ../Api
+npm install
 
-## Expanding the ESLint configuration
+3️⃣ Environment Variables
+Create a .env file inside the Api folder and add:
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4️⃣ Run the project
+# Backend
+npm start
+# Frontend
+npm run dev
+
+📚 What I Learned
+MERN stack application architecture
+REST API development
+JWT-based authentication
+MongoDB database integration
+Full-stack project structure
+
+👤 Author
+Yash Mudgal
+🔗 Links
+GitHub: https://github.com/harshitsharmaa0905
+LinkedIn: https://www.linkedin.com/in/yash-mudgal-b587502a9
+Email: yashmudgal0905@gmail.com
